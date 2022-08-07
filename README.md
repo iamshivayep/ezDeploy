@@ -25,4 +25,4 @@ there is no `ending` function, it just ends, you have to reboot your system afte
 contributions are very welcomed! just edit the ezDeploy.sh file and make a pull request, i will request it!,
 
 # LICENSE
-this program is licensed under the MPL license, which is free and open source license!
+this program is licensed under the GPL license, which is free and open source license!
