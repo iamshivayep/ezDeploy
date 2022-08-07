@@ -39,10 +39,10 @@ depbspwm() { \
 depbspwm
 
 polyconf() { \
-    cd $HOME/
-    git clone https://github.com/adi1090x/polybar-themes
+    git clone https://github.com/adi1090x/polybar-themes ~/
     dialog --colors --title "\Z7\ZbChoose Polybar Themes" --msgbox "\Z4Choose simple in the popup window that will now appear, select simple for the script to work further!" 16 60
-    sh $HOME/polybar-themes/setup.sh
+    mkdir polybar/
+    sh ~/polybar-themes/setup.sh
 
 }
 polyconf
