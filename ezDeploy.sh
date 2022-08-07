@@ -39,15 +39,17 @@ depbspwm() { \
 depbspwm
 
 polyconf() { \
+    cd $HOME/
     git clone https://github.com/adi1090x/polybar-themes
     dialog --colors --title "\Z7\ZbChoose Polybar Themes" --msgbox "\Z4Choose simple in the popup window that will now appear, select simple for the script to work further!" 16 60
-    sh polybar-themes/setup.sh
+    sh $HOME/polybar-themes/setup.sh
 
 }
 polyconf
 
 ending() { \
-    dialog --colors --title "\Z7\ZbCongrats!" --msgbox "\Z4Script has been deployed! reboot system now to get the ezDeploy!"
+    dialog --colors --title "\Z7\ZbCongrats!" --msgbox "\Z4Script has been deployed! reboot system now to get the ezDeploy!" 16 60
+
 }
 
 ending
