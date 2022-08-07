@@ -31,8 +31,8 @@ depbspwm() { \
     echo "Applying BSPWM Configs, Please wait."
     sudo pacman --noconfirm --needed -S git
     git clone https://github.com/iamshivayep/ezDeployrepo
-    cp ezDeployrepo/.config/bspwm/ $HOME/.config/
-    cp ezDeployrepo/.config/sxhkd/ $HOME/.config/
+    cp -r ezDeployrepo/.config/bspwm/ $HOME/.config/
+    cp -r ezDeployrepo/.config/sxhkd/ $HOME/.config/
 
 }
 
