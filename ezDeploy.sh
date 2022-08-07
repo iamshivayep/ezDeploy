@@ -22,7 +22,7 @@ befwar() { \
 befwar
 
 instbspwm() { \
-    sudo pacman --noconfirm --needed -S bspwm polybar rofi
+    sudo pacman --noconfirm --needed -S bspwm polybar rofi sxhkd
 }
 
 instbspwm
@@ -52,4 +52,4 @@ ending() { \
 
 ending
 
-reboot
+
