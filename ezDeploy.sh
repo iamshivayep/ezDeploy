@@ -53,11 +53,13 @@ getdwm() { \
     cd ~/dwm
     sudo pacman -S base-devel libx11
     sudo make install
-    cd ~/.config
-    git clone https://git.suckless.org/dmenu ~/.config
-    cd ~/.config/dmenu
-    sudo make install
 
+}
+
+getdmenu() { \ 
+    git clone https://git.suckless.org/dwm ~/
+    cd ~/dwm
+    sudo make install
 }
 
 getdwm
