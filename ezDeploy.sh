@@ -22,7 +22,7 @@ befwar() { \
 befwar
 
 instbspwm() { \
-    sudo pacman --noconfirm --needed -S bspwm polybar rofi sxhkd
+    sudo pacman --noconfirm --needed -S bspwm polybar rofi sxhkd alacritty nitrogen
 }
 
 instbspwm
@@ -45,12 +45,28 @@ polyconf() { \
 
 }
 polyconf
+# Testing features! (dwm)
+getdwm() { \
+    dialog --colors --title "\Z7\ZbInstalling DWM window manager (experimental!)" --msgbox "\Z4script will now install an experimental feature which is still being tested, dwm is about to be installed. this may break things, but you have been warned about this beforehand!" 16 60
+    echo "cloning dwm from github.com/iamshivayep/Catppuccin-Dwm"
+    git clone https://github.com/iamshivayep/Catppuccin-Dwm ~/.config
+    cd ~/.config/Catppuccin-Dwm
+    sudo pacman -S base-devel libx11
+    sudo make install
+    cd ~/.config
+    git clone https://git.suckless.org/dmenu ~/.config
+    cd ~/.config/dmenu
+    sudo make install
+
+}
+
+
 
 ending() { \
     dialog --colors --title "\Z7\ZbCongrats!" --msgbox "\Z4Script has been deployed! reboot system now to get the ezDeploy!" 16 60
 
 }
 
-ending
+
 
 
