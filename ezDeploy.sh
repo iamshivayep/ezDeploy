@@ -57,8 +57,8 @@ getdwm() { \
 }
 
 getdmenu() { \ 
-    git clone https://git.suckless.org/dwm ~/
-    cd ~/dwm
+    git clone https://git.suckless.org/dmenu ~/dmenu
+    cd ~/dmenu
     sudo make install
 }
 
