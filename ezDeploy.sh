@@ -49,8 +49,8 @@ polyconf
 getdwm() { \
     dialog --colors --title "\Z7\ZbInstalling DWM window manager (experimental!)" --msgbox "\Z4script will now install an experimental feature which is still being tested, dwm is about to be installed. this may break things, but you have been warned about this beforehand!" 16 60
     echo "cloning dwm from github.com/iamshivayep/Catppuccin-Dwm"
-    git clone https://github.com/iamshivayep/Catppuccin-Dwm ~/.config
-    cd ~/.config/Catppuccin-Dwm
+    git clone https://github.com/iamshivayep/Catppuccin-Dwm ~/dwm
+    cd ~/dwm
     sudo pacman -S base-devel libx11
     sudo make install
     cd ~/.config
