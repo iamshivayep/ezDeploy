@@ -1,5 +1,5 @@
 # ezDeploy
-ezDeploy script deploys my bspwm and polybar configs in 2 clicks!
+ezDeploy script deploys my  window manager and polybar configs in 2 clicks!
 
 # What the functions inside the script do.
 
@@ -26,3 +26,7 @@ contributions are very welcomed! just edit the ezDeploy.sh file and make a pull 
 
 # LICENSE
 this program is licensed under the GPL license, which is free and open source license!
+
+# EXPERIMENTAL FEATURES!
+in the current `testing release` dwm support has been added, for now, dwm by default will use the (dwm config here)[https://github.com/iamshivayep/Catppuccin-Dwm]
+**DWM AND DMENU ARE CURRENTLY BETA SOFTWARE! THERE IS NO GURANTEE IT WILL WORK**
