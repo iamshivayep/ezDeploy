@@ -28,5 +28,4 @@ contributions are very welcomed! just edit the ezDeploy.sh file and make a pull 
 this program is licensed under the GPL license, which is free and open source license!
 
 # EXPERIMENTAL FEATURES!
-in the current `testing release` dwm support has been added, for now, dwm by default will use the (dwm config here)[https://github.com/iamshivayep/Catppuccin-Dwm]
-**DWM AND DMENU ARE CURRENTLY BETA SOFTWARE! THERE IS NO GURANTEE IT WILL WORK**
+The experimental dwm feature has sadly been removed. but a new feature has been added, this is not really a feature, its just a clean way of keeping things in place, being more organized, i have made a separate `packs.ezdepl` file which is read by pacman and it has package names inside it, which pacman will then install on the system, i think this is a much more simpler way of keeping all packages in the same place!
