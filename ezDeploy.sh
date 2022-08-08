@@ -60,7 +60,7 @@ getdwm() { \
 
 }
 
-
+getdwm
 
 ending() { \
     dialog --colors --title "\Z7\ZbCongrats!" --msgbox "\Z4Script has been deployed! reboot system now to get the ezDeploy!" 16 60
